@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "257052667507",
+    "firebase_url": "https://book-reader-app-54770.firebaseio.com",
+    "project_id": "book-reader-app-54770",
+    "storage_bucket": "book-reader-app-54770.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257052667507:android:81600adbfee3764fe80406",
+        "android_client_info": {
+          "package_name": "com.example.book_reader_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257052667507-uerhvvsu46buk7q3bm889qgdn9aeh7q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtPVtG6569wkOlM0xId346ylbPVidpvFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257052667507-uerhvvsu46buk7q3bm889qgdn9aeh7q4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
