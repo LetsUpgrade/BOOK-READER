@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:book_reader/Animation/FadeAnimation.dart';
+import 'package:book_reader/main.dart';
 
-class HomePage extends StatelessWidget {
+class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,6 +22,17 @@ class HomePage extends StatelessWidget {
             color: Colors.black,
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(
+              Icons.logout,
+              color: Colors.black,
+            ),
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
+            },
+          )
+        ],
       ),
       body: Container(
         height: MediaQuery.of(context).size.height,
@@ -45,14 +57,15 @@ class HomePage extends StatelessWidget {
                         height: 20,
                       ),
                       FadeAnimation(
+                        1.2,
+                        Text(
+                          "Write the name of the book",
+                          style:
+                              TextStyle(fontSize: 15, color: Colors.grey[700]),
+                        ),
+                      ),
+                      FadeAnimation(
                           1.2,
-                          Text(
-                            "Write the name of the book",
-                            style: TextStyle(
-                                fontSize: 15, color: Colors.grey[700]),
-                          ),
-                          ),
-                          FadeAnimation(1.2, 
                           Text(
                             "and we will read it for you!",
                             style: TextStyle(
