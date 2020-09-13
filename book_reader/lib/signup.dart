@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:book_reader/Animation/FadeAnimation.dart';
+import 'package:book_reader/login.dart';
 
 class SignupPage extends StatelessWidget {
   @override
@@ -76,9 +77,14 @@ class SignupPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Text("Already have an account?"),
-                  Text(" Login", style: TextStyle(
+                  FlatButton(
+                            onPressed: () {
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
+                            },
+                            child: Text(" Login", style: TextStyle(
                     fontWeight: FontWeight.w600, fontSize: 18
                   ),),
+                  ),
                 ],
               )),
             ],
