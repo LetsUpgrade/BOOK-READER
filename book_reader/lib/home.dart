@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:book_reader/Animation/FadeAnimation.dart';
-import 'package:book_reader/signup.dart';
-import 'package:book_reader/home.dart';
 
-class LoginPage extends StatelessWidget {
+class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,7 +37,7 @@ class LoginPage extends StatelessWidget {
                       FadeAnimation(
                           1,
                           Text(
-                            "Login",
+                            "Book Reader",
                             style: TextStyle(
                                 fontSize: 30, fontWeight: FontWeight.bold),
                           )),
@@ -49,7 +47,14 @@ class LoginPage extends StatelessWidget {
                       FadeAnimation(
                           1.2,
                           Text(
-                            "Login to your account",
+                            "Write the name of the book",
+                            style: TextStyle(
+                                fontSize: 15, color: Colors.grey[700]),
+                          ),
+                          ),
+                          FadeAnimation(1.2, 
+                          Text(
+                            "and we will read it for you!",
                             style: TextStyle(
                                 fontSize: 15, color: Colors.grey[700]),
                           )),
@@ -59,9 +64,7 @@ class LoginPage extends StatelessWidget {
                     padding: EdgeInsets.symmetric(horizontal: 40),
                     child: Column(
                       children: <Widget>[
-                        FadeAnimation(1.2, makeInput(label: "Email")),
-                        FadeAnimation(1.3,
-                            makeInput(label: "Password", obscureText: true)),
+                        FadeAnimation(1.2, makeInput(label: "Book Name")),
                       ],
                     ),
                   ),
@@ -82,39 +85,19 @@ class LoginPage extends StatelessWidget {
                           child: MaterialButton(
                             minWidth: double.infinity,
                             height: 60,
-                            onPressed: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
-                            },
+                            onPressed: () {},
                             color: Colors.greenAccent,
                             elevation: 0,
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(50)),
                             child: Text(
-                              "Login",
+                              "Read!",
                               style: TextStyle(
                                   fontWeight: FontWeight.w600, fontSize: 18),
                             ),
                           ),
                         ),
                       )),
-                  FadeAnimation(
-                      1.5,
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          Text("Don't have an account?"),
-                          FlatButton(
-                            onPressed: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => SignupPage()));
-                            },
-                            child: Text(
-                            "Sign up",
-                            style: TextStyle(
-                                fontWeight: FontWeight.w600, fontSize: 18),
-                          ),
-                          ),
-                        ],
-                      ))
                 ],
               ),
             ),
