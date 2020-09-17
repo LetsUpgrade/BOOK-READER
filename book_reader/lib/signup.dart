@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:book_reader/Animation/FadeAnimation.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:email_validator/email_validator.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -439,6 +440,8 @@ return Row(
 
 
 =======
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 import 'package:book_reader/login.dart';
 import 'package:book_reader/home.dart';
 
@@ -562,5 +565,9 @@ class SignupPage extends StatelessWidget {
       ],
     );
   }
+<<<<<<< HEAD
+}
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
 }
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d

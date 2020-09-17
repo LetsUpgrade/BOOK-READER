@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'Animation/FadeAnimation.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -331,6 +332,8 @@ Widget _signInGoogle(BuildContext context) {
           
         ],
 =======
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 import 'package:book_reader/Animation/FadeAnimation.dart';
 import 'package:book_reader/signup.dart';
 import 'package:book_reader/home.dart';
@@ -461,11 +464,15 @@ class LoginPage extends StatelessWidget {
                 ))
           ],
         ),
+<<<<<<< HEAD
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
       ),
     );
   }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -520,6 +527,8 @@ return Row(
 
 
 =======
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
   Widget makeInput({label, obscureText = false}) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -549,4 +558,7 @@ return Row(
     );
   }
 }
+<<<<<<< HEAD
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d

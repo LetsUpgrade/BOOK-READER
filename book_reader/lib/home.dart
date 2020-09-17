@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:book_reader/Animation/FadeAnimation.dart';
 import 'package:book_reader/main.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:flutter/services.dart';
 
 
@@ -9,11 +10,14 @@ import 'package:flutter/services.dart';
 
 =======
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+<<<<<<< HEAD
 <<<<<<< HEAD
         resizeToAvoidBottomInset: false,
         backgroundColor: Colors.white,
@@ -137,6 +141,8 @@ class MainPage extends StatelessWidget {
         ),
       );
 =======
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
       resizeToAvoidBottomInset: false,
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -258,6 +264,9 @@ class MainPage extends StatelessWidget {
         ),
       ),
     );
+<<<<<<< HEAD
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
   }
 
@@ -290,7 +299,11 @@ class MainPage extends StatelessWidget {
     );
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
 }
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d

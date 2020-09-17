@@ -4,6 +4,7 @@ import 'package:book_reader/Animation/FadeAnimation.dart';
 import 'package:book_reader/login.dart';
 import 'package:book_reader/signup.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:gradient_text/gradient_text.dart';
 import 'package:loading/loading.dart';
 import 'package:loading/indicator/ball_pulse_indicator.dart';
@@ -55,6 +56,8 @@ class MyApp extends StatelessWidget {
        );
   }
 =======
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 
 
 void main() {
@@ -64,6 +67,9 @@ void main() {
       home: HomePage(),
     )
   );
+<<<<<<< HEAD
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 }
 
@@ -88,6 +94,7 @@ class HomePage extends StatelessWidget {
                   ),)),
                   SizedBox(height: 20,),
 <<<<<<< HEAD
+<<<<<<< HEAD
                   FadeAnimation(1.2, Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children:<Widget>[
@@ -106,12 +113,17 @@ class HomePage extends StatelessWidget {
                     ]
                   )),
 =======
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
                   FadeAnimation(1.2, Text("Welcome to the book reader app", 
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.grey[700],
                     fontSize: 15
                   ),)),
+<<<<<<< HEAD
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
                 ],
               ),
@@ -180,6 +192,7 @@ class HomePage extends StatelessWidget {
     );
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 
@@ -192,6 +205,9 @@ Widget grad(){
 }
 
 
+=======
+}
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
 }
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d

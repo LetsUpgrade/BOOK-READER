@@ -8,7 +8,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "2.4.2"
+=======
+    version: "2.5.0-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "2.5.0-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -19,7 +23,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "2.0.0"
+=======
+    version: "2.1.0-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "2.1.0-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -30,7 +38,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "1.0.0"
+=======
+    version: "1.1.0-nullsafety.2"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "1.1.0-nullsafety.2"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -41,7 +53,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "1.1.3"
+=======
+    version: "1.2.0-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "1.2.0-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -51,6 +67,7 @@ packages:
       name: clock
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
 <<<<<<< HEAD
     version: "1.0.1"
   cloud_firestore:
@@ -77,6 +94,9 @@ packages:
 =======
     version: "1.1.0-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
+    version: "1.1.0-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
   collection:
     dependency: transitive
     description:
@@ -84,7 +104,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "1.14.13"
+=======
+    version: "1.15.0-nullsafety.2"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "1.15.0-nullsafety.2"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -96,6 +120,7 @@ packages:
     source: hosted
     version: "0.1.3"
 <<<<<<< HEAD
+<<<<<<< HEAD
   email_validator:
     dependency: "direct main"
     description:
@@ -105,12 +130,15 @@ packages:
     version: "1.0.5"
 =======
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
   fake_async:
     dependency: transitive
     description:
       name: fake_async
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
 <<<<<<< HEAD
     version: "1.1.0"
   file:
@@ -172,6 +200,9 @@ packages:
 =======
     version: "1.1.0-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
+    version: "1.1.0-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
   flutter:
     dependency: "direct main"
     description: flutter
@@ -182,6 +213,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
   flutter_web_plugins:
     dependency: transitive
@@ -253,6 +285,8 @@ packages:
     version: "1.0.2"
 =======
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
   matcher:
     dependency: transitive
     description:
@@ -260,7 +294,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "0.12.8"
+=======
+    version: "0.12.10-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "0.12.10-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -270,6 +308,7 @@ packages:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
 <<<<<<< HEAD
     version: "1.1.8"
   modal_progress_hud:
@@ -282,12 +321,16 @@ packages:
 =======
     version: "1.3.0-nullsafety.2"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
+    version: "1.3.0-nullsafety.2"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
   path:
     dependency: transitive
     description:
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
 <<<<<<< HEAD
     version: "1.7.0"
   path_provider_linux:
@@ -377,6 +420,9 @@ packages:
 =======
     version: "1.8.0-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
+    version: "1.8.0-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
   simple_animations:
     dependency: "direct main"
     description:
@@ -396,7 +442,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "1.7.0"
+=======
+    version: "1.8.0-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "1.8.0-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -407,7 +457,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "1.9.5"
+=======
+    version: "1.10.0-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "1.10.0-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -418,7 +472,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "2.0.0"
+=======
+    version: "2.1.0-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "2.1.0-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -429,7 +487,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "1.0.5"
+=======
+    version: "1.1.0-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "1.1.0-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -440,7 +502,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "1.1.0"
+=======
+    version: "1.2.0-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "1.2.0-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -451,7 +517,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "0.2.17"
+=======
+    version: "0.2.19-nullsafety"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "0.2.19-nullsafety"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -462,7 +532,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
 <<<<<<< HEAD
+<<<<<<< HEAD
     version: "1.2.0"
+=======
+    version: "1.3.0-nullsafety.2"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "1.3.0-nullsafety.2"
 >>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
@@ -472,6 +546,7 @@ packages:
       name: vector_math
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
 <<<<<<< HEAD
     version: "2.0.8"
   xdg_directories:
@@ -484,6 +559,11 @@ packages:
 sdks:
   dart: ">=2.9.0-14.0.dev <3.0.0"
   flutter: ">=1.12.13+hotfix.5 <2.0.0"
+=======
+    version: "2.1.0-nullsafety.2"
+sdks:
+  dart: ">=2.10.0-0.0.dev <2.10.0"
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 =======
     version: "2.1.0-nullsafety.2"
 sdks:
