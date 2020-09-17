@@ -3,6 +3,61 @@ import 'package:flutter/widgets.dart';
 import 'package:book_reader/Animation/FadeAnimation.dart';
 import 'package:book_reader/login.dart';
 import 'package:book_reader/signup.dart';
+<<<<<<< HEAD
+<<<<<<< HEAD
+import 'package:gradient_text/gradient_text.dart';
+import 'package:loading/loading.dart';
+import 'package:loading/indicator/ball_pulse_indicator.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/services.dart';
+import 'home.dart';
+
+
+Future<void> main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  // jwt=prefs.getBool('verifyUser')??false;
+  runApp(MyApp());
+
+}
+
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarColor:Color(0x00000000)
+    ));
+
+    return FutureBuilder(
+      future: Firebase.initializeApp(),
+      builder:(context,snapshot){
+        if(snapshot.hasError){
+          print("Something Wrong to Initialize FLutter Firebase");
+          return null;
+        }
+        else if(snapshot.connectionState ==ConnectionState.done){
+          return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      
+      home: HomePage(),
+      routes: <String,WidgetBuilder>{
+        "login":(context)=>LoginPage(),
+        "register":(context)=>SignupPage(),
+        "home":(context)=>MainPage(),
+
+      },  
+      
+    );
+        }
+        return Loading(indicator: BallPulseIndicator(),size: 100.0,color:Colors.blue); 
+
+      }
+       );
+  }
+=======
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 
 
 void main() {
@@ -12,6 +67,10 @@ void main() {
       home: HomePage(),
     )
   );
+<<<<<<< HEAD
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
 }
 
 class HomePage extends StatelessWidget {
@@ -34,12 +93,38 @@ class HomePage extends StatelessWidget {
                     fontSize: 30
                   ),)),
                   SizedBox(height: 20,),
+<<<<<<< HEAD
+<<<<<<< HEAD
+                  FadeAnimation(1.2, Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children:<Widget>[
+                      Text("Welcome to the ", 
+                  style: TextStyle(
+                    color: Colors.grey[700],
+                    fontSize: 20
+                  ),),
+                  grad(),
+                  Text("app ", 
+                  style: TextStyle(
+                    color: Colors.grey[700],
+                    fontSize: 20
+                  ),),
+
+                    ]
+                  )),
+=======
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
                   FadeAnimation(1.2, Text("Welcome to the book reader app", 
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.grey[700],
                     fontSize: 15
                   ),)),
+<<<<<<< HEAD
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
                 ],
               ),
               FadeAnimation(1.4, Container(
@@ -106,4 +191,23 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
+<<<<<<< HEAD
+<<<<<<< HEAD
 }
+
+
+Widget grad(){
+  return GradientText("Book Reader ",
+    gradient: LinearGradient(
+    colors: [Colors.deepPurple, Colors.deepOrange, Colors.yellow]),
+    style: TextStyle(fontSize: 20),
+  );
+}
+
+
+=======
+}
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
+=======
+}
+>>>>>>> fa96300360c16a737f001b7a592b920de0213c4d
